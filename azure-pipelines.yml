@@ -9,6 +9,7 @@ pool:
 variables:
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
   dotnetSdkVersion: '5.x'
+  buildConfiguration: 'Release'
 
 steps:
 - task: UseDotNet@2
